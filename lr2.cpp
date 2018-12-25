@@ -34,6 +34,7 @@ Note::Note(const string& name, const string& surname, const string& phone, int d
   this->date[0] = day;
   this->date[1] = month;
   this->date[2] = year;
+	
 }
 Note::Note(const Note& note){
   cout << "\nNote(Note)";
